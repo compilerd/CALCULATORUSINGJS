@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<title>calculator</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="function.js"></script>
+
+</head>
+<body>
+	<table>
+		<tr>
+			<tr>
+				<td class = "heading">
+					CALCULATOR BUILT ON JS
+				</td>
+			</tr>
+
+			<td>
+				<input type="text" id="input1" placeholder="0" readonly="readonly">
+				<input type="text" id="input2" placeholder="0" readonly="readonly">
+				<input type="answer" id="ans" readonly="readonly">
+
+
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="button" value = "1" onclick="getNumber(1)">
+				<input type="button" value = "2" onclick="getNumber(2)">
+				<input type="button" value = "3" onclick="getNumber(3)">
+				<br>
+				<input type="button" value = "4" onclick="getNumber(4)">
+				<input type="button" value = "5" onclick="getNumber(5)">
+				<input type="button" value = "6" onclick="getNumber(6)">
+				<br>
+				<input type="button" value = "7" onclick="getNumber(7)">
+				<input type="button" value = "8" onclick="getNumber(8)">
+				<input type="button" value = "9" onclick="getNumber(9)">
+				<br>
+				<input type="button" value = "0" onclick="getNumber(0)">
+				<br>
+				<input type="button" onClick="Add()" Value="+" />
+				<input type="button" onClick="Substract()" Value="-" />
+				<input type="button" onClick="Multiply()" Value="*"/>
+				<input type="button" onClick="Divide()" Value="/" />
+			</td>
+		</tr>
+
+
+	</table>
+	
+
+
+</body>
+</html>
